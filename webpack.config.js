@@ -9,10 +9,12 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 })
 
 module.exports = {
-    entry: './client/index.js',
+    //entry: './client/index.js',
+    entry: './demo/decorator/decorator.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'first-webpack.bundle.js'
+        //filename: 'first-webpack.bundle.js'
+        filename: 'decorator.js'
     },
     module: {
         loaders: [
