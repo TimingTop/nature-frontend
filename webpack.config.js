@@ -24,3 +24,10 @@ module.exports = {
     },
     plugins: [HtmlWebpackPluginConfig]
 }
+
+/*
+使用 babel 把 ES6 编译成 ES5， 配置文件是 .babelrc
+\node_modules\.bin>babel ../../demo -d ../../lib
+
+
+*/

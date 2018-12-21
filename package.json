@@ -12,6 +12,8 @@
   "author": "806054933@qq.com",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^3.7.0",
+    "@material-ui/icons": "^3.0.1",
     "material-ui": "^0.18.4",
     "path": "^0.12.7",
     "react": "^15.6.1",
